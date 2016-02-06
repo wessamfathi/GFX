@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:explrepo="http://www.cs.brown.edu/research/graphics/exploratories/explrepo" spec="1.0" codebase="http://www.cs.brown.edu/exploratories/freeSoftware/repository" href="edu/brown/cs/exploratories/applets/transformationGame/transformation_game_java_jnlp.jnlp">
+<information locale="">
+<title>Transformation Game</title>
+<vendor>Brown University</vendor>
+<homepage href="http://www.cs.brown.edu/exploratories"/>
+<description kind="tooltip">Transformation Game</description>
+<description kind="one-line">This applet introduces the user to the usage and mathematics of two-dimensional transformations using a fun, interactive play space.</description>
+<description kind="short">This applet introduces the user to the usage and mathematics of two-dimensional transformations using a fun, interactive play space.</description>
+<icon kind="default" href="thumbnail.gif"/>
+<offline-allowed/>
+</information>
+<resources>
+<j2se href="http://java.sun.com/products/autodl/j2se" version="1.4.* 1.4* 1.4+ 1.3.* 1.3+"/>
+<jar href="edu/brown/cs/exploratories/applets/transformationGame/transformation_game.jar"/>
+</resources>
+<applet-desc main-class="edu.brown.cs.exploratories.applets.transformationGame.ETransApplet" documentbase="." name="Transformation Game" width="500" height="600"/>
+</jnlp>
