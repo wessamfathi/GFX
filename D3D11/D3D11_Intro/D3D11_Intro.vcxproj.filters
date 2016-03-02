@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{961d9082-433f-424e-9483-25cf6097b441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{59499383-a8e4-48e3-90da-a90479335f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Box">
+      <UniqueIdentifier>{68a0451d-c691-456e-ac77-c94bcb7002af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Common">
+      <UniqueIdentifier>{2e0fd360-50d4-448e-87d5-2310ef86bf45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Box\BoxDemo.cpp">
+      <Filter>Source\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Camera.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\d3dApp.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\d3dUtil.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\GameTimer.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\GeometryGenerator.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\LightHelper.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\MathHelper.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\TextureMgr.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Waves.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\xnacollision.cpp">
+      <Filter>Source\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Common\Camera.h">
+      <Filter>Header\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\d3dApp.h">
+      <Filter>Header\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\d3dUtil.h">
+      <Filter>Header\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\d3dx11effect.h">
+      <Filter>Header\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\GameTimer.h">
+      <Filter>Header\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\GeometryGenerator.h">
+      <Filter>Header\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\LightHelper.h">
+      <Filter>Header\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\MathHelper.h">
+      <Filter>Header\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\TextureMgr.h">
+      <Filter>Header\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\Waves.h">
+      <Filter>Header\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\xnacollision.h">
+      <Filter>Header\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FX\Box\color.fx">
+      <Filter>FX</Filter>
+    </None>
+  </ItemGroup>
+</Project>
