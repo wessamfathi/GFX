@@ -1,7 +1,7 @@
 #include "InitDirect3DApp.h"
 #include <DirectXColors.h>
 
-int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance, 
+int WINAPI DeprecatedInitWinMain(HINSTANCE hInstance, HINSTANCE prevInstance, 
 	PSTR cmdLine, int showCmd)
 {
 	// Enable run-time memory check for debug builds
