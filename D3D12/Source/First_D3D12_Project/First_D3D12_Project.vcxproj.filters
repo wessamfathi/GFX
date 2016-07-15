@@ -19,6 +19,9 @@
     <Filter Include="Source Files\Common">
       <UniqueIdentifier>{6e59cd22-672a-4e9e-8c2e-3fd5647387ea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{ff7a9d9b-af64-42a7-9b60-5ac13ff06b96}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BoxApp.cpp">
@@ -80,5 +83,10 @@
     <ClInclude Include="Lessons\InitDirect3DApp.h">
       <Filter>Source Files\Lessons</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\color.hlsl">
+      <Filter>Shader Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
